@@ -7,6 +7,9 @@ char *str[] = {0};
 
 int main ( int argc , char **argv )
 {
+    UNUSED(argc);
+    UNUSED(argv);
+  
   printf("Running ascii parser for string:\n\"%s\"\n\n", text);
   int numparams = ascii_parser( text, str, ',' );
   printf( "Num parameters: %d\n", numparams );
@@ -22,3 +25,6 @@ int main ( int argc , char **argv )
   puts("\nFinished!\n");
   return 0;
 }
+
+
+
