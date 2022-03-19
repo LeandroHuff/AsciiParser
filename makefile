@@ -1,5 +1,6 @@
 # makefile for asciiparser
 
+build: main
 all: main
 
 main: ./obj/main.o ./obj/asciiparser.o
